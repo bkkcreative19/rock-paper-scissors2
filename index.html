@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="head">
+      <div class="head__title">
+        <h1>Rock Paper Scissors</h1>
+      </div>
+      <div class="head__score">
+        <p class="label">Score</p>
+        <p class="score"></p>
+      </div>
+    </header>
+    <div class="choices">
+      <div class="paper choices__choice">
+        <img src="./images/icon-paper.svg" alt="paicon-paper.svg" />
+      </div>
+      <div class="scissors choices__choice">
+        <img src="./images/icon-scissors.svg" alt="sicon-scissors.svg" />
+      </div>
+      <div class="rock choices__choice">
+        <img src="./images/icon-rock.svg" alt="rock" />
+      </div>
+    </div>
+
+    <!-- <div class="computer">
+      <h2 class="computer-choice"></h2>
+    </div> -->
+
+    <div class="answers">
+      <div class="answers__heads">
+        <h2>You Picked</h2>
+        <h2>The House Picked</h2>
+      </div>
+      <div class="answers__player player-choice"></div>
+      <div class="results">
+        <div class="result"></div>
+        <button class="btn">Play Again</button>
+      </div>
+      <div class="answers__computer computer-choice"></div>
+    </div>
+
+    <div class="settings">
+      <button class="reset-btn">reset</button>
+      <button class="rules-btn">rules</button>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
