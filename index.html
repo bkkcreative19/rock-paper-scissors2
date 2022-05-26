@@ -1,66 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="head">
-      <div class="head__title">
-        <h1 class="head__title-text">Rock Paper Scissors</h1>
-      </div>
-      <div class="head__score">
-        <p class="head__score-label label">Score</p>
-        <p class="head__score-text score" id="score"></p>
-      </div>
-    </header>
-    <div class="choices">
-      <div class="paper choices__choice">
-        <img src="./images/icon-paper.svg" alt="paicon-paper.svg" />
-      </div>
-      <div class="scissors choices__choice">
-        <img src="./images/icon-scissors.svg" alt="sicon-scissors.svg" />
-      </div>
-      <div class="rock choices__choice">
-        <img src="./images/icon-rock.svg" alt="rock" />
-      </div>
-    </div>
 
-    <!-- <div class="computer">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="head">
+    <div class="head__title">
+      <h1 class="head__title-text">Rock Paper Scissors</h1>
+    </div>
+    <div class="head__score">
+      <p class="head__score-label label">Score</p>
+      <p class="head__score-text score" id="score"></p>
+    </div>
+  </header>
+  <div class="choices">
+    <div class="paper choices__choice">
+      <img src="./dist/images/icon-paper.svg" alt="paicon-paper.svg" />
+    </div>
+    <div class="scissors choices__choice">
+      <img src="./dist/images/icon-scissors.svg" alt="sicon-scissors.svg" />
+    </div>
+    <div class="rock choices__choice">
+      <img src="./dist/images/icon-rock.svg" alt="rock" />
+    </div>
+  </div>
+
+  <!-- <div class="computer">
       <h2 class="computer-choice"></h2>
     </div> -->
 
-    <div class="answers" id="answers">
-      <div class="answers__heads">
-        <h2>You Picked</h2>
-        <h2>The House Picked</h2>
-      </div>
-      <div class="answers__player" id="player-choice"></div>
-      <div class="answers__results" id="results">
-        <div class="answers__results-result" id="result"></div>
-        <button class="btn">Play Again</button>
-      </div>
-      <div class="answers__computer" id="computer-choice"></div>
+  <div class="answers" id="answers">
+    <div class="answers__heads">
+      <h2>You Picked</h2>
+      <h2>The House Picked</h2>
     </div>
-
-    <div class="settings">
-      <button class="settings__reset-btn" id="reset-btn">reset</button>
-      <button id="myBtn" class="settings__rules-btn">rules</button>
+    <div class="answers__player" id="player-choice"></div>
+    <div class="answers__results" id="results">
+      <div class="answers__results-result" id="result"></div>
+      <button class="btn">Play Again</button>
     </div>
+    <div class="answers__computer" id="computer-choice"></div>
+  </div>
 
-    <div id="myModal" class="modal">
-      <!-- Modal content -->
-      <div class="modal__content">
-        <div class="modal__content-head">
-          <h3>Rules</h3>
-          <span class="close">&times;</span>
-        </div>
-        <img src="./images/image-rules.svg" alt="rules" />
+  <div class="settings">
+    <button class="settings__reset-btn" id="reset-btn">reset</button>
+    <button id="myBtn" class="settings__rules-btn">rules</button>
+  </div>
+
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal__content">
+      <div class="modal__content-head">
+        <h3>Rules</h3>
+        <span class="close">&times;</span>
       </div>
+      <img src="./images/image-rules.svg" alt="rules" />
     </div>
+  </div>
 
-    <script src="./js/controller.js"></script>
-  </body>
+  <script src="./js/controller.js"></script>
+</body>
+
 </html>
