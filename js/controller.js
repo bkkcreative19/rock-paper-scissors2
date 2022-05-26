@@ -121,7 +121,7 @@ btn.addEventListener("click", () => {
 
 const createImage = (who, choice) => {
   who.innerHTML = `
-  <img src="./dist/images/icon-${choice}.svg" alt="${choice}" />
+  <img src="/dist/images/icon-${choice}.svg" alt="${choice}" />
   `;
   if (choice === "paper") {
     who.classList.add("paper");
